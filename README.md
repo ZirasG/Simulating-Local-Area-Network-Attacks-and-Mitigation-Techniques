@@ -1,5 +1,33 @@
 <h1> Simulating Local Area Network Attacks and Mitigation Techniques  </h1>
-<h2>Summary</h2>
+
+DHCP starvation and DHCP spoofing Attack and Mitigation
+Dynamic Host Configuration Protocol (DHCP)
+DHCP Attacks
+The DHCP starvation attack process and the Yersinia tool
+DHCP Spoofing Attack and the Ettercap tool
+Mitigation of DHCP Attacks
+ARP Spoofing/ARP Poisoning Attack and Mitigation
+The Address Resolution Protocol (ARP)
+ARP Spoofing/ARP Poisoning Attack and the Ettercap tool
+mitigation of ARP Spoofing/ARP Poisoning Attack
+MAC Address Table Flooding Attack and Mitigation
+MAC address
+Overview of how a Layer 2 Switch works
+  MAC Address Table Flooding Attack
+The operation of the macof tool
+  Mitigation of MAC Address Table Flooding Attack
+VLAN Hopping and Double-Tagging Attack and Mitigation
+The VLANs
+VLAN Hopping and Double-Tagging Attack
+  Mitigation of VLAN Hopping and Double-Tagging Attacks
+Spanning Tree Protocol (STP) Attacks and Mitigation
+The Spannig Tree Protocol
+STP Attack and the Yersinia tool
+Mitigation of Spanning Tree Protocol (STP) Attack
+CONCLUSIONS
+
+
+<h2>Abstract</h2>
 In this paper we provide a prototype for modeling network computing attacks at <b>layer '2' of the OSI model</b>. Our goal is to replicate the most common attacks of this level while remaining realistic from an attacker's perspective. The simulator is built on a model of 3 - 4 computers on a shared network connected to a Cisco 2950 Catalyst switch. The work is based on the investigation of attacks that take place in the real world. We show how to perceive attacker vulnerabilities and exploits as well as vulnerability metrics on a Cisco Catalyst 2950 switch. In this paper, the present state of the data network is detailed in terms of both logical and physical topology and represented with the help of the <b>Cisco Packet Tracer</b> program. Finally, the attacks <b>ARP Spoofing/ARP Poisoning, MAC Address Table Flooding Attack, DHCP starvation and DHCP spoofing Attack, VLAN Hopping, Double-Tagging Attack Spanning Tree Protocol attack </b> are described in detail as well as the mitigations of these attacks set specific variables on the Cisco switch 2950 Catalyst.
 <br>
 
