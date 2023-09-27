@@ -1,5 +1,30 @@
 <h1> Simulating Local Area Network Attacks and Mitigation Techniques  </h1>
 
+- [DHCP starvation and DHCP spoofing Attack and Mitigation](#dhcp-starvationspoofing-attack-and-mitigation)
+Dynamic Host Configuration Protocol (DHCP)
+DHCP Attacks
+The DHCP starvation attack process and the Yersinia tool
+DHCP Spoofing Attack and the Ettercap tool
+Mitigation of DHCP Attacks
+ARP Spoofing/ARP Poisoning Attack and Mitigation
+The Address Resolution Protocol (ARP)
+ARP Spoofing/ARP Poisoning Attack and the Ettercap tool
+mitigation of ARP Spoofing/ARP Poisoning Attack
+MAC Address Table Flooding Attack and Mitigation
+MAC address
+Overview of how a Layer 2 Switch works
+  MAC Address Table Flooding Attack
+The operation of the macof tool
+  Mitigation of MAC Address Table Flooding Attack
+VLAN Hopping and Double-Tagging Attack and Mitigation
+The VLANs
+VLAN Hopping and Double-Tagging Attack
+  Mitigation of VLAN Hopping and Double-Tagging Attacks
+Spanning Tree Protocol (STP) Attacks and Mitigation
+The Spannig Tree Protocol
+STP Attack and the Yersinia tool
+Mitigation of Spanning Tree Protocol (STP) Attack
+CONCLUSIONS
 
 
 
