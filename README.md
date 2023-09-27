@@ -1,30 +1,33 @@
 <h1> Simulating Local Area Network Attacks and Mitigation Techniques  </h1>
 
-- [DHCP starvation and DHCP spoofing Attack and Mitigation](#dhcp-starvationspoofing-attack-and-mitigation)
-Dynamic Host Configuration Protocol (DHCP)
-DHCP Attacks
-The DHCP starvation attack process and the Yersinia tool
-DHCP Spoofing Attack and the Ettercap tool
-Mitigation of DHCP Attacks
-ARP Spoofing/ARP Poisoning Attack and Mitigation
-The Address Resolution Protocol (ARP)
-ARP Spoofing/ARP Poisoning Attack and the Ettercap tool
-mitigation of ARP Spoofing/ARP Poisoning Attack
-MAC Address Table Flooding Attack and Mitigation
-MAC address
-Overview of how a Layer 2 Switch works
-  MAC Address Table Flooding Attack
-The operation of the macof tool
-  Mitigation of MAC Address Table Flooding Attack
-VLAN Hopping and Double-Tagging Attack and Mitigation
-The VLANs
-VLAN Hopping and Double-Tagging Attack
-  Mitigation of VLAN Hopping and Double-Tagging Attacks
-Spanning Tree Protocol (STP) Attacks and Mitigation
-The Spannig Tree Protocol
-STP Attack and the Yersinia tool
-Mitigation of Spanning Tree Protocol (STP) Attack
-CONCLUSIONS
+- [Abstract](#abstract)
+- [Physical topology of the Network](#physical-topology-of-the-network)
+- [Layer 2 Attacks and Mitigation Techniques](#layer-2-attacks-and-mitigation-techniques)
+  - [DHCP starvation and DHCP spoofing Attack and Mitigation](#dhcp-starvationspoofing-attack-and-mitigation)
+    - [Dynamic Host Configuration Protocol (DHCP)](#dynamic-host-configuration-protocol-dhcp)
+    - [DHCP Attacks](dhcp-attacks)
+    - [The DHCP starvation attack process and the Yersinia tool](#the-dhcp-starvation-attack-and-the-yersinia-tool)
+    - [DHCP Spoofing Attack and the Ettercap tool](#dhcp-spoofing-attack-and-the-ettercap-tool)
+    - [The Mitigation of DHCP Attacks](#the-mitigation-of-dhcp-attacks)
+  - [ARP Spoofing/ARP Poisoning Attack and Mitigation](#arp-spoofingarp-poisoning-attack-and-mitigation)
+    - [The Address Resolution Protocol (ARP)](#the-address-resolution-protocol-arp)
+    - [ARP Spoofing/ARP Poisoning Attack and the Ettercap tool](#arp-spoofingarp-poisoning-attack-and-the-ettercap-tool)
+    - [The mitigation of ARP Spoofing/ARP Poisoning Attack](#the-mitigation-of-arp-attacks)
+  - [MAC Address Table Flooding Attack and Mitigation](#mac-address-table-flooding-attack-and-mitigation)
+    - [MAC address](#mac-address)
+    - [Overview of how a Layer 2 Switch works](#overview-of-operation-of-a-layer-2-switch)
+    - [MAC Address Table Flooding Attack](#mac-address-table-attacktable-flooding-attack)
+    - [The use of the macof tool](#use-of-the-macof-tool)
+    - [Mitigation of MAC Address Table Flooding Attack](#the-mac-address-table-attack-mitigation)
+  - [VLAN Hopping and Double-Tagging Attack and Mitigation](#vlan-double-tagginghopping-attack-and-mitigation)
+    - [The VLANs](#vlans)
+    - [VLAN Hopping and Double-Tagging Attack](#the-vlan-double-tagginghopping-attack)
+    - [The Mitigation of VLAN Hopping and Double-Tagging Attacks](#the-mitigation-of-vlan-double-tagginghopping-attack)
+  - [The Spanning Tree Protocol (STP) Attacks and Mitigation](#the-spanning-tree-protocol-stp-attacks-and-mitigation)
+    - [The Spannig Tree Protocol](#the-spanning-tree-protocol)
+    - [The Spanning Tree Protocol (STP) Attack and the Yersinia tool](#the-spanning-tree-protocol-stp-attack-and-the-yersinia-tool)
+    - [Mitigation of Spanning Tree Protocol (STP) Attack](#the-mitigation-of-spanning-tree-protocol-stp-attack)
+- [CONCLUSIONS](#conclusions)
 
 
 
@@ -44,6 +47,7 @@ Devices used:
 
 <h2>Layer 2 Attacks and Mitigation Techniques</h2>
 <h3>DHCP Starvation/Spoofing Attack and Mitigation</h3>
+<h3>Dynamic Host Configuration Protocol (DHCP)</h3>
 <b>Dynamic Host Configuration Protocol (DHCP)</b> is a network management protocol used in Internet Protocol (IP) networks to automatically assign IP addresses and other communication parameters to devices connected to the network using a client-server architecture. An overview of the DHCP message exchange between client and server is shown in the figure:
 
 ![270714034-40fca244-0ee3-4aa3-9a82-8310592f5236](https://github.com/ZirasG/Simulating-Local-Area-Network-Attacks-and-Mitigation-Techniques/assets/145548499/4c682146-3605-4cc8-864d-b0b9f3449d16)
@@ -81,7 +85,7 @@ When the attack is finished, we go to the User's computer, in PoweShell to execu
 
 ![image](https://github.com/ZirasG/Simulating-Local-Area-Network-Attacks-and-Mitigation-Techniques/assets/145548499/23f2b116-5c56-41f5-899b-2ac9595e5448)
 
-<h3>Mitigation of DHCP Attacks</h3>
+<h3>The Mitigation of DHCP Attacks</h3>
 <b>DHCP Attacks</b> can be effectively mitigated using the switch's <b>port-security</b> because the Yersinia tool uses a unique source MAC address for each DHCP request sent. However, mitigation of DHCP Starvation Attacks requires more protection. DHCP Attacks can be mitigated by using DHCP Snooping on trusted ports.
 <br>
 <br>
